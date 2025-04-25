@@ -20,8 +20,12 @@ int main() {
 		cout << "num1/num2=  " << num1 / num2;
 	} break;
 	
-	default: cout << "this expression doesnt exists";
-	
-			return 0;
+	default: cout << "this expression doesnt exists";		
 	}
+	cout<<"find the max num"<<endl;
+	if(num1>num2){
+		cout<<"the max num is:  "<<num1;}
+	else{
+		cout<<"the max num is:  "<<num2;}
+	return 0;
 }
