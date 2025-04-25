@@ -1,4 +1,5 @@
-# my-project
+# c++-pointer 
+# c++-calculator
 test repo
 
 Hello world code
