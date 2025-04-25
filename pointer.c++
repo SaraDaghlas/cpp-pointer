@@ -3,6 +3,7 @@
 using namespace std;
 void fun(int*);
 void uppercase(char* ptr);//convert from lowercase to uppercase for alphabet char
+void constchar(char const*);// fun to display a constant char but isnt able to edit at the char (just for read pointer that reads a constant char)
 int main() {
 	int x = 5;
 	int y = 10;
@@ -20,6 +21,8 @@ int main() {
 	cout << "Befor conversion:\t" << snt << endl;
 	uppercase(snt);
 	cout << "After conversion:\t" << snt << endl;
+	char constarr[] = "wecom to github";
+	constchar(constarr);//cout the arr of char 
 	return 0;
 }
 void fun(int *ptr) {
@@ -31,4 +34,8 @@ void uppercase(char* ptr) {
 			*ptr = toupper(*ptr);
 		++ptr;
 	}
+}
+void constchar(char const* rptr) {
+	for (; *rptr != '\0'; *rptr++)
+		cout << *rptr;//to move to anather index until arrive null char
 }
