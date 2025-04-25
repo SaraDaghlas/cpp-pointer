@@ -1,5 +1,5 @@
-# c++-pointer 
-# c++-calculator
+# cpp-pointer 
+# cpp-calculator
 test repo
 
 Hello world code
