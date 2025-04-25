@@ -1,3 +1,4 @@
 # my-project
 test repo
-c++ codes 
+Hello world code
+Pointer code
