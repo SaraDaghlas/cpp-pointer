@@ -12,3 +12,5 @@ adding to pointer code a fun to convert the lower-case letters to upper-case let
 adding fun to read a char arr 
 
 Creating asimple calculator
+
+Creating a code that reading anumber and checks whether it is aprime or not 
