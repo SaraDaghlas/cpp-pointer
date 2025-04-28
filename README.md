@@ -16,3 +16,5 @@ Creating asimple calculator
 Creating a code that reading anumber and checks whether it is aprime or not 
 
 Adding a code that checks if the num that ser entered is even or odd
+
+passing by pointer argument 
