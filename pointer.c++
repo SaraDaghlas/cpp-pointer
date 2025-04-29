@@ -23,6 +23,8 @@ int main() {
 	cout << "After conversion:\t" << snt << endl;
 	char constarr[] = "wecom to github";
 	constchar(constarr);//cout the arr of char 
+	int arr[5]={1,2,3,4,5};
+	int *arrptr=arr;
 	return 0;
 }
 void fun(int *ptr) {
