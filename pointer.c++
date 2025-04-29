@@ -25,6 +25,13 @@ int main() {
 	constchar(constarr);//cout the arr of char 
 	int arr[5]={1,2,3,4,5};
 	int *arrptr=arr;
+		while(*arrptr != '\0'){
+	    if(*arrptr%2==0){
+	        cout<< *arrptr<<"the num is even"<<endl;
+	    }else{
+	        cout<< *arrptr<<"the num is odd"<<endl;
+	    }arrptr++;
+	}
 	return 0;
 }
 void fun(int *ptr) {
