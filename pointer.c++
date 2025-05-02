@@ -43,7 +43,7 @@ int main() {
 	        cout<< *arrptr<<"the num is odd"<<endl;
 	    }arrptr++;
 	}
->>>>>>> 9b62829374f3b8a8429d459e77e98cfdf491524d
+
 	return 0;
 }
 void fun(int *ptr) {
@@ -68,4 +68,3 @@ int con(int a) {
 	return a =10;
 }
 =======
->>>>>>> 9b62829374f3b8a8429d459e77e98cfdf491524d
