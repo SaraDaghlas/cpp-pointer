@@ -25,6 +25,7 @@ int main() {
 	cout << "After conversion:\t" << snt << endl;
 	char constarr[] = "wecom to github";
 	constchar(constarr);//cout the arr of char 
+<<<<<<< HEAD
 	int c = 3;
 	cout << "passing the variables through the fun" << endl;
 	cout << "c=  " << c <<endl;
@@ -32,6 +33,17 @@ int main() {
 	cout << "after passing it through the fun:" << "    c:\t" << c<<endl;
 	cout << "by pointer: " << con(&c) << endl;
 	cout << "after passing it through the fun:" << "    c:\t" << c<<endl;
+=======
+	int arr[5]={1,2,3,4,5};
+	int *arrptr=arr;
+		while(*arrptr != '\0'){
+	    if(*arrptr%2==0){
+	        cout<< *arrptr<<"the num is even"<<endl;
+	    }else{
+	        cout<< *arrptr<<"the num is odd"<<endl;
+	    }arrptr++;
+	}
+>>>>>>> 9b62829374f3b8a8429d459e77e98cfdf491524d
 	return 0;
 }
 void fun(int *ptr) {
@@ -48,9 +60,12 @@ void constchar(char const* rptr) {
 	for (; *rptr != '\0'; *rptr++)
 		cout << *rptr;//to move to anather index until arrive null char
 }
+<<<<<<< HEAD
 int con(int* aptr) {
 	return *aptr =10;
 }
 int con(int a) {
 	return a =10;
 }
+=======
+>>>>>>> 9b62829374f3b8a8429d459e77e98cfdf491524d
